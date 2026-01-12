@@ -138,7 +138,7 @@ _ = model.generate(
 )
 
 model.save_pretrained("lora_model")
-tokenizer.save_pretrained("lora_tokenizer")
+tokenizer.save_pretrained("lora_model")
 
 model.push_to_hub("sachinkum0009/Qwen3-4B-LoRA")
-tokenizer.push_to_hub("sachinkum0009/Qwen3-4B-LoRA-tokenizer")
+tokenizer.push_to_hub("sachinkum0009/Qwen3-4B-LoRA")
